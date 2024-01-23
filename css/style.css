@@ -1,5 +1,66 @@
-    @import url(variable.css);
+body {
+    background-color: #333;
+}
 
-    body {
-        background-color: var(--colorPrimary);
-    }
+.fila {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fila2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja1 {
+    display: flex;
+    width: 550px;
+    height: 250px;
+    background-color: aqua;
+    text-align: center;
+    align-content: center;
+    margin: 40px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.caja2 {
+    display: flex;
+    width: 550px;
+    height: 250px;
+    background-color: aqua;
+    margin: 40px;
+    justify-content: left;
+    align-items: end;
+}
+
+.caja3 {
+    display: flex;
+    width: 550px;
+    height: 250px;
+    background-color: aqua;
+    margin: 40px;
+    justify-content: left;
+    align-items: end;
+}
+
+.caja4 {
+    display: flex;
+    width: 550px;
+    height: 250px;
+    background-color: aqua;
+    margin: 40px;
+    justify-content: space-between;
+    align-items: flex-start;
+} 
+
+.subcaja {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
